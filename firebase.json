@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "lab12-2/lab12-2",
+    "ignore": [
+      "firebase.json",
+      "*/.",
+      "*/node_modules/*"
+    ]
+  }
+}
