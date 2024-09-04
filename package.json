@@ -1,5 +1,5 @@
 {
-  "name": "LAB12",
+  "name": "lab12",
   "version": "1.0.0",
   "scripts": {
     "build": "webpack --config webpack.config.js"
