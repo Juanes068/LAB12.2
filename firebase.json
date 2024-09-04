@@ -1,10 +1,16 @@
 {
   "hosting": {
-    "public": "lab12-2/lab12-2",
+    "public": ".",
     "ignore": [
       "firebase.json",
-      "*/.",
-      "*/node_modules/*"
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
     ]
   }
 }
